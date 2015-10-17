@@ -1,0 +1,13 @@
+	var number = new Array();
+	  number[0]="";
+	  number[1]="number-2";
+	  number[2]="number-4";
+	  number[3]="number-8";
+	  number[4]="number-16";
+	  number[5]="number-32";
+	  number[6]="number-64";
+	  number[7]="number-128";
+	  number[8]="number-256";
+	  number[9]="number-512";
+	  number[10]="number-1024";
+	  number[11]="number-2048";

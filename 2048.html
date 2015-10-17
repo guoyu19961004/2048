@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+	<meta charset="UTF-8">
+	<title>2048</title>
+	<link rel="stylesheet" href="2048.css">
+</head>
+<body>
+	<h1>自定义2048</h1>
+	<div id="grade-container">
+		<div class="present-grade">
+			<h2>得分</h2>
+			<p>0</p>
+		</div>
+		<div class="best-grades">
+			<h2>最高分</h2>
+			<p>0</p>
+		</div>
+	</div>
+	<div id="control-content">
+		<a href="http://2048.malash.net/rules/" target="_blank">游戏规则</a>
+		<button>新游戏</button>
+	</div>
+	<div class="game-container">
+		<div class="game-massages" id="game-massages">
+			<h2>Game Over!</h2>
+			<button>再来一局</button>
+		</div>
+		<div class="grid-content" id="grid-content">
+			<div class="grid-row">
+				<ul>
+					<li class=""></li>
+					<li class=""></li>
+					<li class=""></li>
+					<li class=""></li>
+				</ul>
+			</div>
+			<div class="grid-row">
+				<ul>
+					<li class=""></li>
+					<li class=""></li>
+					<li class=""></li>
+					<li class=""></li>
+				</ul>
+			</div>
+			<div class="grid-row">
+				<ul>
+					<li class=""></li>
+					<li class=""></li>
+					<li class=""></li>
+					<li class=""></li>
+				</ul>
+			</div>
+			<div class="grid-row">
+				<ul>
+					<li class=""></li>
+					<li class=""></li>
+					<li class=""></li>
+					<li class=""></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/number.js"></script>
+	<script type="text/javascript" src="js/keydown.js"></script>
+	<script type="text/javascript" src="js/judge.js"></script>
+	<script type="text/javascript" src="js/2048.js"></script>
+</body>
+</html>
